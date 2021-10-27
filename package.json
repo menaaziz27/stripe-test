@@ -1,0 +1,19 @@
+{
+	"name": "ebookseller",
+	"version": "1.0.0",
+	"description": "an app to sell books",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"author": "mena aziz",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^5.3.4",
+		"stripe": "^8.184.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.14"
+	}
+}
